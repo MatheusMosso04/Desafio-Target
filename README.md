@@ -25,15 +25,13 @@ else
 }
     return(atual);
 }
-
 void main(){
     int i, num;
 
-    printf("Numero que deseja saber o Fibonacci: ");
-    scanf("%i", &num);
+    	printf("Numero que deseja saber o Fibonacci: ");
+    	scanf("%i", &num);
 
-
-    for(i=1; i<=num;i++){
+    	for(i=1; i<=num;i++){
         printf("%i\t", Fibonacci(i));
     }
 }
@@ -58,13 +56,11 @@ void inverter(char str[]){
         fim--;
     }
 }
-
 void main(){
 	char palavra[30];
+    	printf("Digite uma palavra: ");
+    	scanf("%s", &palavra);
 
-    printf("Digite uma palavra: ");
-    scanf("%s", &palavra);
-
-    inverter(palavra);
-    printf("%s", palavra);
+	inverter(palavra);
+    	printf("%s", palavra);
 }
