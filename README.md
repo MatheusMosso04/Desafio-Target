@@ -4,7 +4,10 @@ Olá, me chamo Matheus Mosso Von Zuben e neste repositório estão minhas respos
 
 1) O valor da variável soma é 91
 
-2) //SEQUÊNCIA DE FIBONACCI
+2) SEQUÊNCIA DE FIBONACCI
+
+#include <stdio.h>
+#include <stdlib.h>
 int Fibonacci(int n)
 {
 int i,ant,atual,seg;
@@ -39,11 +42,14 @@ void main(){
 
 4) Primeiro ligaria dois interruptores e esperaria um tempo, logo após desligaria algum dos dois que foram ligados e então já faria minha primeira ida a sala. Caso a sala estivesse acesa saberia que o interruptor que deixei ligado seria aquele que controlava esta sala, caso estivesse apagada, ficaria entre o que desliguei e o que mantive desligado. Voltaria aos interruptores, ligaria o mesmo que antes tinha ligado, deixaria por um tempo e desligaria novamente e faria minha segunda ida, dessa vez em outra sala. Caso a lâmpada estivesse quente saberia que o interruptor que desliguei logo antes de sair dos interruptores seria o certo para aquela sala, e o que sobrou seria o que mantive apagado durante todo o desafio.
 
-5) //INVERTER STRING
+5) INVERTER STRING
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 void inverter(char str[]){
     int i, temp, fim, tam = strlen(str);
-
+    //strlen, responsável por determinar o tamanho da string.
     fim = tam - 1;
     for(i=0;i<tam/2;i++){
         temp = str[i];
