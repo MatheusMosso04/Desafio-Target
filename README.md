@@ -4,7 +4,7 @@ Olá, me chamo Matheus Mosso Von Zuben e neste repositório estão minhas respos
 
 Questão 1 - O valor da variável soma é 91
 
-Questão 2 - a. 9; b. 128; c. 49; d. 96; e. 13; f. 20
+Questão 3 - a. 9; b. 128; c. 49; d. 96; e. 13; f. 20
 
 Questão 4 - Primeiro ligaria dois interruptores e esperaria um tempo, logo após desligaria algum dos dois que foram ligados e então já faria minha primeira ida a sala. Caso a sala estivesse acesa saberia que o interruptor que deixei ligado seria aquele que controlava esta sala, caso estivesse apagada, ficaria entre o que desliguei e o que mantive desligado. Voltaria aos interruptores, ligaria o mesmo que antes tinha ligado, deixaria por um tempo e desligaria novamente e faria minha segunda ida, dessa vez em outra sala. Caso a lâmpada estivesse quente saberia que o interruptor que desliguei logo antes de sair dos interruptores seria o certo para aquela sala, e o que sobrou seria o que mantive apagado durante todo o desafio.
 
