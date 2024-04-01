@@ -2,19 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-//Soma
-/*void main(){
-    int i = 13, soma = 0, k = 0;
-    
-    while(k < i){
-        k=k+1;
-        soma = soma + k;
-    }
-    printf("%i",soma);
-}*/
-
-
-
 //SEQUÊNCIA DE FIBONACCI
 int Fibonacci(int n)
 {
@@ -46,15 +33,11 @@ void main(){
     }
 }
 
-
-
-
-
 //INVERTER STRING
 
 void inverter(char str[]){
     int i, temp, fim, tam = strlen(str);
-
+    //strlen, responsável por retornar um inteiro, sendo o tamanho da string
     fim = tam - 1;
     for(i=0;i<tam/2;i++){
         temp = str[i];
@@ -63,7 +46,6 @@ void inverter(char str[]){
         fim--;
     }
 }
-
 void main(){
 	char palavra[30];
 
